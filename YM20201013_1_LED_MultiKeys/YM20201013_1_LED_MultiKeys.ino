@@ -1,4 +1,5 @@
-//OCT 13 2020 T.I. added sample 2 keys
+//OCT 13 2020 T.I. added sample "3 keys"
+//OCT 13 2020 T.I. added sample "2 keys"
 //OCT 13 2020 T.I. created this file.
 
 int key_0=3;
@@ -40,6 +41,15 @@ void loop() {
   else
   {
     digitalWrite(led_1,LOW);
+  }
+
+  if(LOW==digitalRead(key_2))
+  {
+    digitalWrite(led_2,HIGH);
+  }
+  else
+  {
+    digitalWrite(led_2,LOW);
   }
 
 
